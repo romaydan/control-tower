@@ -1,0 +1,6 @@
+
+<div class="notifications scrollbar-secondary" #scrollMe>
+  <div *ngFor="let message of messages">
+    <p>{{message.date.toLocaleString()}} {{message.content}}</p>
+  </div>
+</div>

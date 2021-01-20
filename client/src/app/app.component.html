@@ -1,0 +1,23 @@
+<div class="app mat-typography app-frame mat-app-background">
+  <div class="title">
+    <app-title [title]="'ControlTower'" [imageUrl]= "'http://localhost:34256/images/control-tower.png'"></app-title>
+  </div>
+  <div class="notifications">
+    <app-notification-list [messages]="messages"></app-notification-list>
+    <app-dash-board (generatePlane)="createPlane()" (autoGeneratePlane)="autoGenerate($event)"></app-dash-board>
+
+  </div>
+  <div class="landings">
+    <app-plane-board [planes]="landings" [title]="'Arrival'" [imageUrl]="'http://localhost:34256/images/arrivalDark.png'">
+    </app-plane-board>
+  </div>
+  <div class="takeoffs">
+    <app-plane-board [planes]="takeoffs" [title]="'Departures'"
+      [imageUrl]="'http://localhost:34256/images/departureDark.png'"></app-plane-board>
+  </div>
+  <div class="dashboard">
+  </div>
+  <div class="facilities">
+    <app-facility-list [facilities]="facilites"></app-facility-list>
+  </div>
+</div>

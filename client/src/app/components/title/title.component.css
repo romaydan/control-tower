@@ -1,0 +1,16 @@
+
+
+.title{
+  position: relative;
+  top: 30px;
+  font-size: 4rem;
+  font-weight: bolder;
+float: right;
+color: #d176e1;
+}
+.image{
+  height: 4rem;
+  margin-top:15px;
+  margin-left: 4px;
+  float: right;
+}

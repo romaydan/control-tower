@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ControlTower.BL\ControlTower.BL.csproj" />
+    <ProjectReference Include="..\ControlTower.Common\ControlTower.Common.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,52 @@
+<div class="board">
+  <h1 class="title">{{title}}</h1>
+   <img [src]="imageUrl" class="icon" />
+  <table mat-table [dataSource]="planes" class="mat-elevation-z8">
+    <h1 class="title">{{title}}</h1> <img [src]="imageUrl" class="icon" />
+
+    <ng-container matColumnDef="flightNumber">
+      <th mat-header-cell *matHeaderCellDef> FlightNumber </th>
+      <td mat-cell *matCellDef="let plane"> {{plane.flightNumber}} </td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="type">
+      <th mat-header-cell *matHeaderCellDef> Type </th>
+      <td mat-cell *matCellDef="let plane"> {{plane.planeType |PascalToRegular}} </td>
+    </ng-container>
+
+    <!-- Weight Column -->
+    <ng-container matColumnDef="weight">
+      <th mat-header-cell *matHeaderCellDef> Content </th>
+      <td mat-cell *matCellDef="let plane"> {{plane| planeAdditionalInfo}} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+</div>
+<!-- <mat-list class="board scrollbar-secondary">
+  <h1 class="title">{{title}}</h1> <img [src]="imageUrl" class="icon" />
+  <div *ngFor="let plane of planes">
+    <mat-list-item>
+      <h3>{{plane.flightNumber}} {{plane.planeType |PascalToRegular}}</h3>
+    </mat-list-item>
+    <mat-divider></mat-divider>
+  </div>
+</mat-list>
+<div> -->
+  <!-- <div class="board">
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+
+
+
+ <div>
+  <table mat-table [dataSource]="planes">
+    <th>
+
+    </th>
+  </table>
+</div> -->
+
+

@@ -1,0 +1,4 @@
+.facilities{
+  display: flex;
+  flex-wrap: wrap;
+}

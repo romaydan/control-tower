@@ -1,0 +1,30 @@
+.app {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 0.3fr repeat(2, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+.landings {
+  grid-area: 1 / 1 / 3 / 2;
+}
+.takeoffs {
+  grid-area: 1 / 3 / 3 / 4;
+}
+.title {
+  grid-area: 1 / 2 / 2 / 3;
+  align-self: center;
+  justify-self: center;
+  margin: auto;
+  text-align: center;
+}
+.notification {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.dashboard {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.facilities {
+  grid-area: 3 / 2 / 4 / 4;
+}

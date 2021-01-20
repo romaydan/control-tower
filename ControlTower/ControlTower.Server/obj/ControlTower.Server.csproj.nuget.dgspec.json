@@ -1,0 +1,365 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.Server\\ControlTower.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.BL\\ControlTower.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.BL\\ControlTower.BL.csproj",
+        "projectName": "ControlTower.BL",
+        "projectPath": "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.BL\\ControlTower.BL.csproj",
+        "packagesPath": "C:\\Users\\rom64\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rom64\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.Common\\ControlTower.Common.csproj": {
+                "projectPath": "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.Common\\ControlTower.Common.csproj"
+              },
+              "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.DAL\\ControlTower.DAL.csproj": {
+                "projectPath": "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.DAL\\ControlTower.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.SignalR.Core": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.Common\\ControlTower.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.Common\\ControlTower.Common.csproj",
+        "projectName": "ControlTower.Common",
+        "projectPath": "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.Common\\ControlTower.Common.csproj",
+        "packagesPath": "C:\\Users\\rom64\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rom64\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.DAL\\ControlTower.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.DAL\\ControlTower.DAL.csproj",
+        "projectName": "ControlTower.DAL",
+        "projectPath": "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.DAL\\ControlTower.DAL.csproj",
+        "packagesPath": "C:\\Users\\rom64\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rom64\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.Common\\ControlTower.Common.csproj": {
+                "projectPath": "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.Common\\ControlTower.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.Generator\\ControlTower.Generator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.Generator\\ControlTower.Generator.csproj",
+        "projectName": "ControlTower.Generator",
+        "projectPath": "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.Generator\\ControlTower.Generator.csproj",
+        "packagesPath": "C:\\Users\\rom64\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.Generator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rom64\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.BL\\ControlTower.BL.csproj": {
+                "projectPath": "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.BL\\ControlTower.BL.csproj"
+              },
+              "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.Common\\ControlTower.Common.csproj": {
+                "projectPath": "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.Common\\ControlTower.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.Server\\ControlTower.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.Server\\ControlTower.Server.csproj",
+        "projectName": "ControlTower.Server",
+        "projectPath": "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.Server\\ControlTower.Server.csproj",
+        "packagesPath": "C:\\Users\\rom64\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rom64\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.BL\\ControlTower.BL.csproj": {
+                "projectPath": "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.BL\\ControlTower.BL.csproj"
+              },
+              "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.DAL\\ControlTower.DAL.csproj": {
+                "projectPath": "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.DAL\\ControlTower.DAL.csproj"
+              },
+              "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.Generator\\ControlTower.Generator.csproj": {
+                "projectPath": "C:\\Users\\rom64\\Documents\\Coding\\Sela\\Projects\\FinalProject\\Development\\ControlTower\\ControlTower.Generator\\ControlTower.Generator.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.AspNetCore.StaticFiles": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

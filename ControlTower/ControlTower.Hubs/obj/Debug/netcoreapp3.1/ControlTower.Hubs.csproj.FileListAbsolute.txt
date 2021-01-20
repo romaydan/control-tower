@@ -1,0 +1,6 @@
+C:\Users\rom64\Documents\Coding\Sela\Projects\FinalProject\Development\ControlTower\ControlTower.Hubs\bin\Debug\netcoreapp3.1\ControlTower.Hubs.deps.json
+C:\Users\rom64\Documents\Coding\Sela\Projects\FinalProject\Development\ControlTower\ControlTower.Hubs\bin\Debug\netcoreapp3.1\ControlTower.Hubs.dll
+C:\Users\rom64\Documents\Coding\Sela\Projects\FinalProject\Development\ControlTower\ControlTower.Hubs\obj\Debug\netcoreapp3.1\ControlTower.Hubs.csprojAssemblyReference.cache
+C:\Users\rom64\Documents\Coding\Sela\Projects\FinalProject\Development\ControlTower\ControlTower.Hubs\obj\Debug\netcoreapp3.1\ControlTower.Hubs.AssemblyInfoInputs.cache
+C:\Users\rom64\Documents\Coding\Sela\Projects\FinalProject\Development\ControlTower\ControlTower.Hubs\obj\Debug\netcoreapp3.1\ControlTower.Hubs.AssemblyInfo.cs
+C:\Users\rom64\Documents\Coding\Sela\Projects\FinalProject\Development\ControlTower\ControlTower.Hubs\obj\Debug\netcoreapp3.1\ControlTower.Hubs.csproj.CoreCompileInputs.cache
